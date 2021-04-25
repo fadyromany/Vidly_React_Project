@@ -7,8 +7,6 @@ class Like extends Component {
         let clasess="fa fa-heart"
         if (!this.props.liked) clasess+="-o"
         return ( 
-           
-
             <i
              aria-hidden="true"
              onClick={this.props.onClick} 
